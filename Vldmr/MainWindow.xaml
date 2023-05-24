@@ -1,0 +1,19 @@
+﻿<Window x:Class="Vldmr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vldmr"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Margin="10">Введите Имя пользователя</Label>
+            <TextBox Margin="10" Name="tbName"></TextBox>
+            <Label Margin="10">Пороль</Label>
+            <TextBox Margin="10" Name="tbPassword"></TextBox>
+            <Button Margin="10" Name="tbAuth" Click="tbAuth_Click">Вход</Button>
+            <Button Margin="10" Name="Reg" Click="Reg_Click">Регистрация</Button>
+        </StackPanel>
+    </Grid>
+</Window>
